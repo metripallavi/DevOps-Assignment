@@ -1,5 +1,29 @@
+# ----------------------
+# Python
+# ----------------------
 backend/venv/
 __pycache__/
 *.pyc
-.env
+
+# ----------------------
+# Node / Next.js
+# ----------------------
 node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+
+# Logs
+npm-debug.log*
+
+# ----------------------
+# Environment files
+# ----------------------
+.env
+.env.local
+
+# ----------------------
+# OS / System
+# ----------------------
+.DS_Store
+Thumbs.db
